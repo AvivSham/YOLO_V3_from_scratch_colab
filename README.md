@@ -2,7 +2,6 @@
 Implementing YOLOV3 on google colab using PyTorch
 
 ## Introduction
----
 YOLOv3 is the third object detection algorithm in YOLO (You Only Look Once) family. It improved the accuracy with many tricks and is more capable of detecting small objects.
 
 ![alt text](https://static.wixstatic.com/media/4b2724_81d3803e19254b8cb6060b447ea51bf7~mv2.png/v1/fill/w_925,h_243,al_c,usm_0.66_1.00_0.01/4b2724_81d3803e19254b8cb6060b447ea51bf7~mv2.png)
