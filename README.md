@@ -24,10 +24,11 @@ The improvements of YOLO V3:
 1. Most of the necessary dependencies are built in google colab. the ones that aren't built in google colab installed as a part of the code.
 2. At first, don't forget to upload the modules `darknet.py` and also `util.py`. You can download both from the repository, we will import them right at the beginning of the code. You can use this [link(see comment #3)](https://stackoverflow.com/questions/47320052/load-local-data-files-to-colaboratory) to upload the files easily.
 3. Don't forgrt to change the Runtime type to GPU, it will save you some time. To do so you need to go to the head of the screen press on "Runtime" ---> "Change Runtime Type" ---> "Hardware" and select GPU option.
+4. Don't forget to set the parameters in the "Setting parameters" section before you run the code. `detect_image` is flag, when `detect_image = True` the model will detect on image input `detect_image = False` the model will detect on video input.
 
 
 ### Further work:
-1. Write train file to able traning other than Microsoft's COCO dataset.
+1. Write train file to able traning on other dataset than Microsoft's COCO.
 2. Save the video file with the detected features.
 
 
