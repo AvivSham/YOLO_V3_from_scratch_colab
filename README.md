@@ -1,4 +1,4 @@
-# YOLO_V3_from_scratch_colab
+# YOLO-V3 from scratch running on google colab notebook
 Implementing YOLOV3 on google colab using PyTorch
 
 ## Introduction
