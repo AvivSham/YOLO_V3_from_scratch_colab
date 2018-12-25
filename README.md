@@ -29,10 +29,10 @@ The improvements of YOLO V3:
 
 ### Further work:
 1. Write train file to able traning on other dataset than Microsoft's COCO.
-2. Save the video file with the detected features.
 
+### 25/12/2018 Update:
+I have modified the detection script so now you can save the detected video!
 
-#### I will be more than glad if someone can help me with the sections above!
 #### I want to thank Ayoosh Kathuria for his post about YOLO V3
 
 
