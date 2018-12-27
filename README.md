@@ -20,18 +20,16 @@ The improvements of YOLO V3:
 
 
 ### Few instructions before you run the code:
-1. Most of the necessary dependencies are built in google colab. the ones that aren't built in google colab installed as a part of the code.
-2. At first, don't forget to upload the modules `darknet.py` and also `util.py`. You can download both from the repository, we will import them right at the beginning of the code. You can use this [link(see comment #3)](https://stackoverflow.com/questions/47320052/load-local-data-files-to-colaboratory) to upload the files easily.
-3. Don't forgrt to change the Runtime type to GPU, it will save you some time. To do so you need to go to the head of the screen press on "Runtime" ---> "Change Runtime Type" ---> "Hardware" and select GPU option.
-4. Don't forget to set the parameters in the "Setting parameters" section before you run the code. `detect_image` is flag, when `detect_image = True` the model will detect on image input `detect_image = False` the model will detect on video input.
-5. Test images automatically been dowloaded. If you want to use other images you can paste download URL in "Get test images" section or just upload manually to `'/content/Images'` directory. 
-
+1. Don't forgrt to change the Runtime type to GPU, it will save you some time. To do so you need to go to the head of the screen press on "Runtime" ---> "Change Runtime Type" ---> "Hardware" and select GPU option.
+2. Don't forget to set the parameters in the "Setting parameters" section before you run the code. `detect_image` is flag, when `detect_image = True` the model will detect on image input `detect_image = False` the model will detect on video input.
+3. Test images automatically been dowloaded. If you want to use other images you can paste download URL in "Get test images" section or just upload manually to `'/content/Images'` directory. 
 
 ### Further work:
 1. Write train file to able traning on other dataset than Microsoft's COCO.
 
 ### 25/12/2018 Update:
-I have modified the detection script so now you can save the detected video!
+1. I have modified the detection script so now you can save the detected video!
+2. You don't have to load anything but the image/video you want to apply the detection on.
 
 #### I want to thank Ayoosh Kathuria for his post about YOLO V3
 
